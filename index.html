@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+	
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+	
+	.frame{
+		background-color:hsl(0, 0%, 100%); 
+		margin:auto;
+		margin-top:174px;
+		margin-bottom:174px;
+		width:250px;
+		height:375px;
+		text-align:center;
+		vertical-align:middle;
+		align-items: center;
+		justify-content: center;
+		padding:20px;
+		border-radius:18px
+	}
+	
+	h1 {
+		font-family: "Outfit", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 700;
+		font-style: normal;
+		color:hsl(218, 44%, 22%);
+		font-size:20px;
+	}
+	p {
+		font-family: "Outfit", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		color:hsl(216, 15%, 48%);
+		font-size:15px;
+	}
+	
+	@media(max-width:375px){
+		.frame{
+			margin-top:120px;
+			margin-bottom:120px;
+		}
+	}
+	
+	
+  </style>
+</head>
+<body style="background-color:hsl(212, 45%, 89%);">
+	<div class="frame">
+		<figure><img src="images/image-qr-code.png" alt="qr code" style="width:100%; border-radius:9px;"></figure>
+		<h1>Improve your front-end skills by building projects</h1>
+		<p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+	</div>
+	
+  <footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Bruno590">Bruno Ponce</a>.
+  </div>
+  </footer>
+</body>
+</html>
